@@ -30,7 +30,7 @@ export const getProductByBarcode = async (barcode: string) => {
 
     // Supongo que solo debería haber un producto con un código de barras único.
     const product = querySnapshot.docs[0].data()
-
+    console.log(product)
     return product
   } catch (error) {
     console.error('Error al buscar el producto por código de barras:', error)

@@ -21,7 +21,7 @@ function ScannerSell() {
                     width: 250,
                     height: 100,
                 },
-                fps: 5,
+                fps: 20,
             }, false);
 
             setScanner(newScanner);
